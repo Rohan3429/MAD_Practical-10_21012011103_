@@ -71,12 +71,13 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button1"
-                android:layout_width="70dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:icon="@drawable/baseline_location_on_24"
-                app:layout_constraintBottom_toBottomOf="@+id/textview1"
+                app:layout_constraintBottom_toBottomOf="@+id/address1"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="@+id/textview1" />
+                app:layout_constraintTop_toTopOf="parent"
+                style="?materialIconButtonFilledStyle"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

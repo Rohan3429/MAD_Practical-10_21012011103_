@@ -58,8 +58,6 @@
                 app:layout_constraintTop_toBottomOf="@+id/email1" />
 
 
-
-
             <ImageView
                 android:id="@+id/imageview1"
                 android:layout_width="50dp"
